@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pink</title>
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;    
+}
+
+.container{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;    
+    left: 50%;    
+    width: 600px;
+    height: 600px;
+    background-color: #1e1e28;
+    display: grid;
+    padding: 50px;
+}
+
+input{
+    border: 3px solid #cc6566;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #1e1e28;
+    padding: 20px;
+    font-size: 25px;
+}
+
+textarea{
+    font-size: 25px;
+    margin: 10px;
+    height: 150px;
+    background-color: #1e1e28;
+    border: 3px solid #cc6566;
+    border-radius: 5px;
+    padding: 20px 0 0 20px;
+}
+
+#submit{
+    background-color: #cc6566;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -10px;
+    /* font-stretch: ultra-expanded; */
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email">
+        <textarea placeholder="Comment"></textarea>
+        <input id="submit" type="submit" value="SUBMIT">
+    </div>
+</body>
+</html>

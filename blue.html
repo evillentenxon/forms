@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blue</title>
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;    
+}
+
+.border{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;    
+    left: 50%;    
+    border: 20px solid #4c51bf;
+    width: 500px;
+    height: 600px;
+    padding: 0px;
+    background-color: #4c51bf;
+}
+.container{
+    width: 460px;
+    height: 560px;    
+    background-color: #ebf4ff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+img{
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+label{
+    color: #667eea;
+    font-size: 20px;
+}
+
+#submit{
+    background-color: #4c51bf;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+}
+
+input{
+    border: none;
+    border-bottom: 3px solid #667eea;
+    margin: 10px 0 20px 0;
+    padding: 20px 0 20px 0;
+}
+
+.grid{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+p{
+    color: #4c51bf;
+    font-size: 20px;    
+}
+form{
+    margin-top: 50px;
+    display: grid;
+}
+    </style>
+</head>
+
+<body>
+    <div class="border">
+        <div class="container">
+            <img src="logo.png" alt="tiger">
+            <form action="">
+                <label>Username</label>
+                <input type="text">
+                <label>Password</label>
+                <input type="password">
+                <input id="submit" type="submit">
+            </form>
+            <div class="grid">
+                <p>Forget Password?</p>
+                <p>Create Account</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
